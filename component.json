@@ -13,6 +13,6 @@
   , "scripts": [
       "transitionize.js"
     ]
-  , "dependencies": {},
+  , "dependencies": {}
   , "development": {}
 }
