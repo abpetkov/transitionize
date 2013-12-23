@@ -27,6 +27,8 @@ module.exports = Transitionize;
  */
 
 function Transitionize(element, props) {
+  if (!(this instanceof Transitionize)) return new Transitionize(element, props);
+
   this.element = element;
   this.props = props || {};
   this.init();
