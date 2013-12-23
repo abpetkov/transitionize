@@ -51,7 +51,7 @@ If you'd like to specify the `transition-timing-function` or the `transition-del
 
 ```js
 var prop = {
-  `background-color`: `0.3s ease-in 1s`
+  'background-color': '0.3s ease-in 1s'
 };
 ```
 
