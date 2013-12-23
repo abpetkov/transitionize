@@ -1,0 +1,17 @@
+{
+  "name": "transitionize",
+  "repo": "abpetkov/transitionize",
+  "description": "Create CSS3 transitions dynamically",
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "transition"
+  ],
+  "license": "MIT",
+  "main": "transitionize.js",
+  "scripts": [
+    "transitionize.js"
+  ],
+  "dependencies": {},
+  "development": {}
+}
