@@ -33,6 +33,17 @@ function Transitionize(element, props) {
 }
 
 /**
+ * Detect if Safari.
+ *
+ * @returns {Boolean}
+ * @api private
+ */
+
+Transitionize.prototype.isSafari = function() {
+  return (/Safari/).test(navigator.userAgent) && (/Apple Computer/).test(navigator.vendor);
+};
+
+/**
  * Loop though the object and push the keys and values in an array.
  * Apply the CSS3 transition to the element and prefix with -webkit- for Safari.
  *
@@ -47,17 +58,5 @@ Transitionize.prototype.init = function() {
   }
 
   this.element.style.transition = transitions.join(', ');
-
   if (this.isSafari()) this.element.style.webkitTransition = transitions.join(', ');
-};
-
-/**
- * Detect if Safari.
- *
- * @returns {Boolean}
- * @api private
- */
-
-Transitionize.prototype.isSafari = function() {
-  return (/Safari/).test(navigator.userAgent) && (/Apple Computer/).test(navigator.vendor);
 };
