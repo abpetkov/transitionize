@@ -2,7 +2,7 @@
 
 ## Description
 
-Transitionize helps you to apply CSS3 transitions dynamically to elements of your choice. This helps in cases where you need different transition properties or transition speed for the same element, but for different events, for example.
+Transitionize helps you to create CSS3 transitions dynamically to elements of your choice. This helps in cases where you need different transition properties or transition speed for the same element, but for different events, for example.
 
 The idea came needed a simpler way to do that for another project of mine - [Switchery](https://github.com/abpetkov/switchery), where I had to change some of the properties speed when checking/unchecking.
 
