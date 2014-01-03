@@ -14,6 +14,12 @@ The idea came needed a simpler way to do that for another project of mine - [Swi
 <script src="standalone/transitionize.js"></script>
 ```
 
+##### NPM:
+
+```shell
+$ npm install transitionize
+```
+
 ##### Component:
 
 ```shell
@@ -32,6 +38,26 @@ $ bower install transitionize
 var elem = document.querySelector('.js-elem');
 var prop = { 'key': 'value' };
 var init = new Transitionize(elem, prop);
+```
+
+## Examples
+
+You can make as many keys as you want and they will work as long as they are CSS valid properties.
+
+```js
+var prop = {
+    'border': '0.3s'
+  , 'box-shadow': '0.3s'
+  , 'text-shadow': '0.8s'
+};
+```
+
+If you'd like to specify the `transition-timing-function` or the `transition-delay`, do it like so:
+
+```js
+var prop = {
+  'background-color': '0.3s ease-in 1s'
+};
 ```
 
 ## Development
@@ -59,26 +85,6 @@ There are some useful commands you can use.
 `$ make build` - will create a build file
 
 `$ make standalone` - will create a standalone and minified files
-
-## Examples
-
-You can make as many keys as you want and they will work as long as they are CSS valid properties.
-
-```js
-var prop = {
-    'border': '0.3s'
-  , 'box-shadow': '0.3s'
-  , 'text-shadow': '0.8s'
-};
-```
-
-If you'd like to specify the `transition-timing-function` or the `transition-delay`, do it like so:
-
-```js
-var prop = {
-  'background-color': '0.3s ease-in 1s'
-};
-```
 
 ## Contact
 
