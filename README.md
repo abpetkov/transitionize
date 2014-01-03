@@ -29,11 +29,36 @@ $ bower install transitionize
 ## Usage
 
 ```js
-var Transitionize = require('transitionize');
 var elem = document.querySelector('.js-elem');
 var prop = { 'key': 'value' };
 var init = new Transitionize(elem, prop);
 ```
+
+## Development
+
+If you've decided to go in development mode and tweak all of this a little bit, there are few things you should do.
+
+After you clone the repository, do this in your terminal:
+
+```shell
+$ npm install
+```
+
+Add the following code before the rest:
+
+```js
+var Transitionize = require('transitionize');
+```
+
+Make sure you're using the `build/build.js` file and you're ready.
+
+There are some useful commands you can use.
+
+`$ make install` - will install Node.js modules, components etc.
+
+`$ make build` - will create a build file
+
+`$ make standalone` - will create a standalone and minified files
 
 ## Examples
 

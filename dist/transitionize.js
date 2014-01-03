@@ -1,3 +1,4 @@
+;(function(){
 
 /**
  * Require the given path.
@@ -202,7 +203,7 @@ require.relative = function(parent) {
 require.register("transitionize/transitionize.js", function(exports, require, module){
 
 /**
- * Transitionize 0.0.1
+ * Transitionize 0.0.2
  * https://github.com/abpetkov/transitionize
  *
  * Authored by Alexander Petkov
@@ -229,6 +230,8 @@ module.exports = Transitionize;
  */
 
 function Transitionize(element, props) {
+  if (!(this instanceof Transitionize)) return new Transitionize(element, props);
+
   this.element = element;
   this.props = props || {};
   this.init();
@@ -263,4 +266,10 @@ Transitionize.prototype.init = function() {
   if (this.isSafari()) this.element.style.webkitTransition = transitions.join(', ');
 };
 });
-require.alias("transitionize/transitionize.js", "transitionize/index.js");
+require.alias("transitionize/transitionize.js", "transitionize/index.js");if (typeof exports == "object") {
+  module.exports = require("transitionize");
+} else if (typeof define == "function" && define.amd) {
+  define(function(){ return require("transitionize"); });
+} else {
+  this["Transitionize"] = require("transitionize");
+}})();

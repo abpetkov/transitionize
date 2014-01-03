@@ -1,6 +1,6 @@
 
 /**
- * Transitionize 0.0.1
+ * Transitionize 0.0.2
  * https://github.com/abpetkov/transitionize
  *
  * Authored by Alexander Petkov

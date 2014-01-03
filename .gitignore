@@ -1,3 +1,4 @@
 .DS_STORE
-build
+build/
+node_modules/
 index.html

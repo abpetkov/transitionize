@@ -2,7 +2,7 @@
     "name": "transitionize"
   , "repo": "abpetkov/transitionize"
   , "description": "Create CSS3 transitions dynamically"
-  , "version": "0.0.1"
+  , "version": "0.0.2"
   , "keywords": [
         "css3"
       , "transition"
