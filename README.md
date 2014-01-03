@@ -38,7 +38,7 @@ var init = new Transitionize(elem, prop);
 
 If you've decided to go in development mode and tweak all of this a little bit, there are few things you should do.
 
-After you clone the repository, do this in your terminal:
+After you clone the repository, do this in your terminal ([NPM](http://npmjs.org/) required):
 
 ```shell
 $ npm install
