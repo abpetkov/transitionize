@@ -1,6 +1,6 @@
 {
     "name": "transitionize"
-  , "main": "standalone/transitionize.js"
+  , "main": "dist/transitionize.js"
   , "version": "0.0.2"
   , "homepage": "https://github.com/abpetkov/transitionize"
   , "authors": [

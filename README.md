@@ -11,7 +11,7 @@ The idea came needed a simpler way to do that for another project of mine - [Swi
 ##### Standalone:
 
 ```html
-<script src="standalone/transitionize.js"></script>
+<script src="dist/transitionize.js"></script>
 ```
 
 ##### NPM:
