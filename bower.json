@@ -1,7 +1,7 @@
 {
     "name": "transitionize"
   , "main": "dist/transitionize.js"
-  , "version": "0.0.2"
+  , "version": "0.0.3"
   , "homepage": "https://github.com/abpetkov/transitionize"
   , "authors": [
       "Alexander Petkov <abpetkov@gmail.com>"

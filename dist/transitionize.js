@@ -203,7 +203,7 @@ require.relative = function(parent) {
 require.register("transitionize/transitionize.js", function(exports, require, module){
 
 /**
- * Transitionize 0.0.2
+ * Transitionize 0.0.3
  * https://github.com/abpetkov/transitionize
  *
  * Authored by Alexander Petkov
