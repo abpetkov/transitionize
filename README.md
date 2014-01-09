@@ -40,6 +40,12 @@ var prop = { 'key': 'value' };
 var init = new Transitionize(elem, prop);
 ```
 
+To run the example in this repository, with [Browserify](http://browserify.org/) already installed, execute the following command:
+
+```shell
+  browserify examples/browserify.js -o examples/bundle.js
+```
+
 ## Examples
 
 You can make as many keys as you want and they will work as long as they are CSS valid properties.
