@@ -43,7 +43,7 @@ var init = new Transitionize(elem, prop);
 To run the example in this repository, with [Browserify](http://browserify.org/) already installed, execute the following command:
 
 ```shell
-  browserify examples/browserify.js -o examples/bundle.js
+browserify examples/browserify.js -o examples/bundle.js
 ```
 
 ## Examples
